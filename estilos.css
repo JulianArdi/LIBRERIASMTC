@@ -1,0 +1,129 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.menu a h1{
+    color: #fff;
+}
+
+.inicio img{
+    width: 240px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.inicio{
+  display:flex ;
+  flex-direction: column;
+  align-items: center ;
+  height: 650px;
+  font-size: 1.25rem;
+  background: teal ;
+  padding-top: 50px;
+  font-weight: 700;
+    
+}
+
+.titulo{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  line-height: 2.75rem;
+  font-weight: 700;
+
+}
+
+.iconos{
+    font-size: 30px;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom:40px;
+}
+
+
+
+.titulos{
+  width: 100%;
+  height: 280px; 
+  display:flex ;
+  flex-direction: column;
+  align-items: center ;
+  padding-top: 100px;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+}
+
+/** portafolioe imagenes **/
+
+
+.contenedorimg{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.contenidoimg{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.subcontenido{
+  position: relative;
+  width: 320px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 15px;
+  /**box-shadow: 0px 10px 25px rgb(4, 255, 255);**/
+}
+
+.subcontenido img{
+  width: 100%;
+  height: 100%;
+  transition: all 500ms ease-out;
+}
+
+.add i{
+  position:relative ;
+  justify-content: center;
+  font-size: 80px;
+  top: 90PX;
+  color: white;
+}
+
+.add{
+  position: absolute;
+  top: 0em;
+  width: 100%;
+  height: 100%;
+  background: rgb(26, 188, 156, 0.9);
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+  cursor: pointer;
+}
+.subcontenido:hover .add{
+opacity: 1;
+visibility: visible;
+}
+
+/** ABOUT **/ 
+
+.acerca{
+  width: 100%;
+  height: 640px;
+  background: teal;
+}
